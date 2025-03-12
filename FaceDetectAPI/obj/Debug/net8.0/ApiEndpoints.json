@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "FaceDetectApi.Controllers.FaceController",
+    "Method": "GetFaceResult",
+    "RelativePath": "api/faces/{fileName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fileName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FaceDetectApi.Controllers.FaceController",
+    "Method": "DetectFaces",
+    "RelativePath": "api/faces/detect",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
